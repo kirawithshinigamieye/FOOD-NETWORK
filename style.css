@@ -73,6 +73,7 @@ a:hover{
     margin-left: 300px;
     margin-right: 150px;
     margin-top: 100px;
+    text-align: justify;
 }
 .recipie{
     width: 25%;
@@ -96,4 +97,32 @@ a:hover{
 .three{
     margin-left: 50px;
     margin-right: 20px;
+}
+.fourth-sec{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 200px;
+    display: flex;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.youtube{
+    padding-left: 300px;
+    padding-right: 110px;
+}
+.instagram{
+    padding-left: 60px;
+    padding-right: 110px;
+}
+.dribbble{
+    padding-left: 60px;
+    padding-right: 100px;
+}
+footer{
+    background-color: black;
+}
+i{
+    padding: 10px;
+    size: 5px;
 }
