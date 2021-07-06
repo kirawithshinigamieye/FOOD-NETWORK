@@ -57,10 +57,43 @@ a:hover{
 .recipie h1{
     font-size: 40px;
     text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .recipie p{
     font-size: 25px;
     font-family: 'Prompt', sans-serif;
     font-weight: bold;
     color: gray;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.third-sec{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.recipie{
+    width: 25%;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+}
+.recipie img{
+    width: 95%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.one{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.two{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.three{
+    margin-left: 50px;
+    margin-right: 20px;
 }
