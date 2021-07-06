@@ -13,7 +13,7 @@ h2{
 a{
     text-decoration: none;
     background-image: linear-gradient(90deg,orange,rgba(255, 72, 0, 0.877));
-    padding: 20px 35px;
+    padding: 20px 45px;
     border-radius: 40px;
     color: white;
     font-family: 'Prompt', sans-serif;
@@ -24,18 +24,43 @@ a{
 a:hover{
     background-image: linear-gradient(90deg,rgba(255, 166, 0, 0.863),rgba(255, 72, 0, 0.753));
 }
-.fisrt-sec{
-    display: flex;
-}
 .half-first{
     width: 40%;
+    margin-bottom: 100px;
 }
 .text-first{
     float: left;
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: 180px;
+    text-align: justify;
 }
 .img-first{
     float: right;
     margin-top: 100px;
+    padding-right: 20px;
+}
+.text-second{
+    position: absolute;
+    top: 150%;
+    left: 75%;
+    transform: translate(-55%,-45%);
+    text-align: justify;
+    padding-bottom: 250px;
+}
+.img-second img{
+    width: 100%;
+    height: 80%;
+}
+.second-sec{
+    margin-bottom: 100px;
+}
+.recipie h1{
+    font-size: 40px;
+    text-align: justify;
+}
+.recipie p{
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color: gray;
 }
